@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins';
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #6451ee;
+    font-size: 1.3rem;
+    border-bottom:2px solid black;
+}
+
+.nav-link{
+    padding: 1.4% 1.9%;
+}   
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-link:hover{
+    background-color: #b4abfa;
+}
+
+h1, h2{
+        font-family: 'Raleway';
+}
+
+#welcome-section{
+    background-color:#eaf6ff;
+    width: 100%;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    line-height:2px;
+    margin-bottom: 0;
+}
+
+.el{
+    font-size: 4rem;
+}
+
+.ell{
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+#projects{
+    background-color:#191158;
+    color: white;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.head{
+    text-decoration: underline;
+}
+
+img{
+    width:88%;
+    height: 40vh;
+}
+
+.para{
+    font-weight: bold;
+}
+
