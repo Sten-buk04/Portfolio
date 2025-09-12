@@ -64,11 +64,17 @@ h1, h2{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 .head{
-    text-decoration: underline;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding-bottom: 6px;
+}
+
+.flex{
+    padding-top: 27px;
 }
 
 img{
@@ -78,5 +84,15 @@ img{
 
 .para{
     font-weight: bold;
+    position: relative;
+  display: inline-block;
+  transition: color 0.3s ease;
 }
 
+.para::before {
+  content: "<";
+}
+
+.para::after {
+  content: "/>";
+}
