@@ -10,16 +10,17 @@ body{
     justify-content: flex-end;
     align-items: center;
     background-color: #6451ee;
-    font-size: 1.3rem;
+    font-size: 0.7rem;
     border-bottom:2px solid black;
     position: fixed;
+    z-index: 1000;
     width: 100%;
     padding-top: 0;
 }
 
 .nav-link{
     padding: 1.4% 1.9%;
- text-decoration: none;
+    text-decoration: none;
     color: white;
 }   
 
@@ -38,20 +39,20 @@ h1, h2{
 #welcome-section{
     background-color:#eaf6ff;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center; 
-    line-height:2px;
+    line-height:23px;
     margin-bottom: 0;
 }
 
 .el{
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .ell{
-    font-size: 2rem;
+    font-size: 0.7rem;
     font-style: italic;
     text-align: center;
 }
@@ -66,7 +67,7 @@ h1, h2{
 
 .flex{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding-top: 27px;
@@ -75,13 +76,13 @@ h1, h2{
 .head{
     border-bottom: 2px solid white;
     display: inline-block;
-    font-size: 2.5rem;
+    font-size: 1rem;
     padding-bottom: 6px;
 }
 
 img{
-    width:88%;
-    height: 40vh;
+    width:78%;
+    height: 31vh;
     margin-bottom: 0;
 }
 
@@ -175,6 +176,68 @@ footer a{
 }
 
 
+@media (min-width: 400px) and (max-width: 500px){
+    #navbar{
+        font-size: 1rem;
+    }
 
+    #welcome-section{
+        width: 100%;
+        height:75vh;
+    }
 
+    .el{
+    font-size: 2.5rem;
+}
 
+    .ell{
+        font-size: 1rem;
+    }
+
+    .head{
+        font-size: 1.5;
+    }
+
+}
+
+@media screen and (min-width: 501px){
+    
+    img{
+    width:90%;
+    height: 40vh;
+    margin-bottom: 0;
+}
+
+}
+
+@media (min-width: 700px){
+    #navbar{
+        font-size: 1.3rem;
+    }
+
+     #welcome-section{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .el{
+    font-size: 4rem;
+}
+
+    .ell{
+        font-size: 2rem;
+    }
+
+    .head{
+        font-size: 2.5rem;
+    }
+
+    .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 27px;
+}
+
+}
