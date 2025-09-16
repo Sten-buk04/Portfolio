@@ -12,6 +12,9 @@ body{
     background-color: #6451ee;
     font-size: 1.3rem;
     border-bottom:2px solid black;
+    position: fixed;
+    width: 100%;
+    padding-top: 0;
 }
 
 .nav-link{
@@ -35,7 +38,7 @@ h1, h2{
 #welcome-section{
     background-color:#eaf6ff;
     width: 100%;
-    height: 87vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -120,10 +123,58 @@ img{
 #contact{
     background-color:#eaf6ff;
     width: 100%;
-    height:55vh;
-    padding-top: 5%;
+    height:70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-bottom:5px solid #6451ee;
 }
+
+.wo{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.space{
+    line-height: 100%;
+    text-align: center;
+}
+
+i{
+    font-size: 1.1rem;
+}
+
+.contact-links{
+    padding-top: 30px;
+}
+
+.contact-links a{
+    text-decoration: none;
+    color: black;
+    padding-right:25px;
+    font-size: 1.4rem;
+    text-align: center;
+    
+}
+
+footer{
+    background-color:#eaf6ff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+

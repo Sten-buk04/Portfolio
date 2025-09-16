@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <title>My Portfolio page</title>
   </head>
   <body>
-    <header id="navbar">
-      <a class="nav-link" href="#welcome-section">About</a>
-      <a class="nav-link" href="#projects">Work</a>
-      <a class="nav-link" href="#contact">Contact</a>
+    <header id="header">
+      <nav id="navbar">
+        <a class="nav-link" href="#welcome-section">About</a>
+        <a class="nav-link" href="#projects">Work</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
     </header>
 
     <main id="main">
@@ -50,13 +53,20 @@
       </section>
 
       <section id="contact">
-        <h1>Let's work together</h1>
-        <p>How do you take your coffee?</p>
+        <div class="space">
+            <h1 class="wo">Let's work together...</h1>
+            <p><i>How do you take your coffee?</i></p>
+        </div>
         <div class="contact-links">
+          <i class="fa-brands fa-square-facebook"></i>
           <a href="#">Facebook</a>
+          <i class="fa-brands fa-github"></i>
           <a href="#">Github</a>
+          <i class="fa-brands fa-x-twitter"></i>
           <a href="#">X</a>
+          <i class="fa-solid fa-at"></i>
           <a href="#">Send a Mail</a>
+          <i class="fa-solid fa-mobile"></i>
           <a href="#">Call Me</a>
         </div>
       </section>
